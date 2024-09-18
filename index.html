@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravanjan Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    </style>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/MyPortfolio/PortfolioWebLogo.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="header">
+        <div class="logoNav">
+            <img src="portfolioLOGO.png" class="navVideo">
+        </div>
+        <div class="itemNav">
+            <ul class="name navbar">
+                <li href="#home" class="liHover lione active">HOME</li>
+                <li href="#skill" class="liHover litwo">SKILLS</li>
+                <li href="#abouteme" class="liHover lithree">ABOUTEME</li>
+                <li href="#contactus" class="liHover lifour">CONTACTUS</li>
+                <li href="#" class="moreli" onclick=openSlideBar()><a href="#"><img class="morelili"
+                            src="/MyPortfolio/icons8-more-100 (1).png"></a></li>
+            </ul>
+            <ul class="slidebar navbar">
+                <li class="sty" onclick=hideSlideBar()><a href="#"><img src="/MyPortfolio/icons8-cross-80.png"
+                            alt=""></a></li>
+                <li id="home">HOME</li>
+                <li>SKILLS</li>
+                <li>ABOUTEME</li>
+                <li>CONTACTUS</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section id="home">
+        <iframe class="s2" src='https://my.spline.design/lines-7119922b4f9ea8e589c02da9fb65f2a9/'
+            frameborder='0'></iframe>
+        <div class="main sectionsec">
+            <div class="main1 photoMain">
+                <img class="imgForPC" src="/MyPortfolio/ProfilePic.png" alt="">
+                <img class="imgForPC1" src="/MyPortfolio/pravanjanWallModify.png" alt="noimg">
+                <!-- <img class="imgForMobile" src="file (1).png" alt=""> -->
+            </div>
+            <div class="main1 latterMain">
+                <h1>I'm</h1>
+                <h1>Prabhanjan Amanta</h1>
+                <h1>I'm a <span class="autotype"></span></h1>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Head letter change  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.autotype', {
+            strings: ['Programmer', 'Designer', 'Coder'],
+            typeSpeed: 150,
+            backspeed: 150,
+            loop: true
+        });
+    </script>
+
+    <!-- GitHub  -->
+    <div class="gitHubBox">
+        <a href="https://github.com/Prabhanjan-17p" target="_blank">
+            <img src="/MyPortfolio/icons8-github-500 (1).png" alt="" class="GitHubBoxIcon">
+        </a>
+    </div>
+
+
+    <!-- skill section -->
+    <section id="skill">
+        <!-- heading of card -->
+        <div class="one">
+            <h1 class="h11">Skills</h1>
+        </div>
+
+        <!--skill card -->
+        <div class="card sectionsec">
+            <div class="cardElement">
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-java-48.png" alt="">
+                    </div>
+                    <div class="cardName">JAVA</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-javascript-48.png" alt="">
+                    </div>
+                    <div class="cardName">JavaSCRIPT</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-python-48.png" alt="">
+                    </div>
+                    <div class="cardName">PYTHON</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-html-48.png" alt="">
+                    </div>
+                    <div class="cardName">HTML</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-css-48.png" alt="">
+                    </div>
+                    <div class="cardName">CSS</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-sql-60.png" alt="">
+                    </div>
+                    <div class="cardName">SQL</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-power-bi-48.png" alt="">
+                    </div>
+                    <div class="cardName">PowerBI</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-java-48.png" alt="">
+                    </div>
+                    <div class="cardName">JAVA</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-canva-48.png" alt="">
+                    </div>
+                    <div class="cardName">CANVA</div>
+                </div>
+                <div class="cardBox">
+                    <div class="cardLogo">
+                        <img src="/MyPortfolio/icons8-figma-48.png" alt="">
+                    </div>
+                    <div class="cardName">FIGMA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education heading  -->
+    <div class="one">
+        <h1 class="h11"> EDUCATION </h1>
+    </div>
+    <!-- Education Session Card -->
+    <div class="educationSession">
+        <div class="educationCard">
+            <!-- <div class="EducationColorHover"></div> -->
+            <div class="latterEducation">
+                <h4 class="headEducation">BCA (Bachelor of Computer Applications)</h4>
+                <hr class="hrhover">
+                <div class="contentEducation">
+                    <h3><img src="icons8-graduation-scroll-100.png" alt=""> &nbsp;&nbsp;RIMIT</h3>
+                    <h3><img src="icons8-location-96.png" alt="">&nbsp;&nbsp; ANGUL</h3>
+                    <h3><img src="icons8-year-64.png" alt=""> &nbsp;&nbsp;2024</h3>
+                </div>
+            </div>
+            <div class="EducationColorHover"></div>
+        </div>
+        <div class="educationCard">
+            <!-- <div class="EducationColorHover"></div> -->
+            <div class="latterEducation">
+                <h4 class="headEducation" style="align-items: ce;">HIGHER SECONDARY (12th)</h4>
+                <hr class="hrhover">
+                <div class="contentEducation">
+                    <h3><img src="icons8-graduation-scroll-100.png" alt=""> &nbsp;&nbsp;BCCST</h3>
+                    <h3><img src="icons8-location-96.png" alt="">&nbsp;&nbsp; BHUBANESWAR</h3>
+                    <h3><img src="icons8-year-64.png" alt=""> &nbsp;&nbsp;2020</h3>
+                </div>
+            </div>
+            <div class="EducationColorHover"></div>
+        </div>
+        <div class="educationCard">
+            <!-- <div class="EducationColorHover"></div> -->
+            <div class="latterEducation">
+                <h4 class="headEducation">SECONDARY (10th)</h4>
+                <hr class="hrhover">
+                <div class="contentEducation">
+                    <h3><img src="icons8-graduation-scroll-100.png" alt=""> &nbsp;&nbsp; Nehru High School,Gadashantri
+                    </h3>
+                    <h3><img src="icons8-location-96.png" alt="">&nbsp;&nbsp; ANGUL</h3>
+                    <h3><img src="icons8-year-64.png" alt=""> &nbsp;&nbsp;2018</h3>
+                </div>
+            </div>
+            <div class="EducationColorHover"></div>
+        </div>
+    </div>
+
+    <!-- aboute me section -->
+    <section id="abouteme">
+        <!-- AbouteMe heading  -->
+        <div class="one">
+            <h1 class="h11"> Aboute me </h1>
+        </div>
+        <div class="Abouteme sectionsec">
+            <div class="firtBoxAboute">
+                <div class="infocardContainer">
+                    <div id="main">
+                        <!-- <img src="ProfilePic.png"></img> -->
+                        <video src="Pravanjan video.mp4" loop muted autoplay></video>
+                    </div>
+                    <div id="textbois">
+                        <h2 class="aboutehhtyh">Pravanjan Amanta</h2>
+                        <h4 class="aboutehh">Professional FullStack Developer</h4>
+                        <a class="aboutehh" href="mailto:limecicila@gmail.com">pravanjanamanta@gmail.com</a>
+                        <div id="hotlinks">
+                            <a href="https://codepen.io/LIMESTA"><img id="codepenio" src="icons8-instagram-96.png"
+                                    target="_blank"></img>
+                            </a>
+                            <a href="https://codepen.io/LIMESTA">
+                                <img id="codepenio" src="icons8-twitter-100.png" target="_blank"></img>
+                            </a>
+                            <a href="https://codepen.io/LIMESTA">
+                                <img id="codepenio" src="icons8-gmail-96.png" target="_blank"></img>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lastBoxAboute">
+                <div class="progressAbout">
+                    <div class="progressBar progressBar1">
+                        <h3>Java</h3>
+                        <progress value="85" max="100"></progress>
+                    </div>
+                    <div class="progressBar progressBar2">
+                        <h3>JavaScript</h3>
+                        <progress value="85" max="100"></progress>
+                    </div>
+                    <div class="progressBar progressBar3">
+                        <h3>DSA</h3>
+                        <progress value="85" max="100"></progress>
+                    </div>
+                    <div class="progressBar progressBar4">
+                        <h3>Python</h3>
+                        <progress value="85" max="100"></progress>
+                    </div>
+                    <div class="progressBar progressBar5">
+                        <h3>HTML/CSS</h3>
+                        <progress value="85" max="100"></progress>
+                    </div>
+                </div>
+                <div class="AbouteOfAboute">
+                    <div class="aboutHint">
+                        <h4>Name : PRABHANJAN AMANTA </h4>
+                        <h4>Class : Recent pass BCA </h4>
+                        <h4>Address : Indian,Odisha,angul </h4>
+                    </div>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hey
+                        there!
+                        👋 I'm Prabhanjan Amanta, a final year BCA student based in Angul, Odisha, India 🇮🇳. Coding is
+                        not
+                        just my hobby; it my passion! 💻 I spend a significant amount of my time immersed in the world
+                        of
+                        programming. My skills include Java ☕, JavaScript, PowerBI, HTML, CSS, SQL, and Python 🐍.I love
+                        tackling challenges and creating innovative solutions through code. My goal is to contribute to
+                        impactful projects and keep learning in the ever-evolving tech landscape. </p>
+                </div>
+            </div>
+            <a href="@Prabhanjan_Resume.pdf" download class="CVButton">Download CV</a>
+        </div>
+    </section>
+
+    <!-- project heading  -->
+    <div class="one">
+        <h1 class="h11"> projects </h1>
+    </div>
+    <div class="project">
+
+        <div class="projectiteam">
+            <iframe class="iframe1" src='https://my.spline.design/boxeshover-c91f572c2e31aa08461973eb1c351ed7/'
+                frameborder='0'></iframe>
+            <div class="firstProject">
+                <img src="/MyPortfolio/powerbiWall.png" alt="" class="aa">
+
+            </div>
+            <div class="firstProject secondProject">
+                <img src="/MyPortfolio/netflixWall.png" alt="" class="aa">
+            </div>
+            <div class="firstProject thriedProject">
+                <img src="/MyPortfolio/bookBusWall.png" alt="" class="aa">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact section  -->
+    <section id="contactus">
+        <!-- contact us heading  -->
+        <div class="one">
+            <h1 class="h11"> Contact US </h1>
+        </div>
+        <!-- contact div -->
+        <div class="contact sectionsec">
+            <section class="runBackColor">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+
+
+
+
+                <div class="boxContact bb1">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="3951b93a-e500-4b04-a496-87c6af5eafb4">
+                        <div class="conttboxofbox1">
+                            <div class="inputBoxContact  inputBoxName">
+                                <input name="name" class="inputName ContactInput" type="text">
+                                <div class="ll wewe"> Enter Your Full Name</div>
+                            </div>
+                            <div class="inputBoxContact inputBoxEmail inputBoxName">
+                                <input name="email" class="inputEmail ContactInput" type="text">
+                                <div class="ll wewe"> Enter Email</div>
+                            </div>
+                            <div class="inputBoxContact inputBoxSuggestion inputBoxName">
+                                <!-- <textarea class="inputSuggest ContactInput" name="" id="" placeholder=""></textarea> -->
+                                <input name="message" class="inputSuggest ContactInput" type="text">
+                                <div class="ll wewe"> Anything Suggest me bro...!</div>
+                            </div>
+                            <div class="sumbitBox">
+                                <button class="btnSumbit" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="conttboxofbox2">
+                        <div class="conttboxofbox3">
+                            <b>Contact me</b>
+                        </div>
+                        <div class="conttboxofbox4 bb2">
+                            <img src="icons8-gmail-96.png" alt="">
+                            <b>pravanjanamanta@gmail.com</b>
+                        </div>
+                        <div class="conttboxofbox4 bb2">
+                            <img src="icons8-phonecall-80.png" alt="">
+                            <b>+91 7815******</b>
+                        </div>
+                        <div class="conttboxofbox5 bb3">
+                            <a class="ite1" href=""><img src="icons8-gmail-96.png" alt=""></a>
+                            <a class="ite2" href=""><img src="icons8-instagram-96.png" alt=""></a>
+                            <a class="ite3" href=""><img src="icons8-twitter-100.png" alt=""></a>
+                            <a class="ite4" href=""><img src="icons8-gmail-96.png" alt=""></a>
+                            <a class="ite5" href=""><img src="icons8-instagram-96.png" alt=""></a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- contact us heading  -->
+    <div class="last">
+        <b>Copyright @2024 🤍 Pravanjan Amanta</b>
+    </div>
+
+
+
+    <script src="new.js"></script>
+</body>
+
+</html>
